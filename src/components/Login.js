@@ -33,7 +33,7 @@ const Login = () => {
           />
         </div>
         <button type="submit" style={{ marginTop: '20px' }}>
-          Login
+          Login now
         </button>
       </form>
     </div>
