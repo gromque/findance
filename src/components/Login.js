@@ -38,7 +38,7 @@ export default function Login() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const validEmail = 'maha.98@gmail.com';
+    const validEmail = 'alex@gmail.com';
     const validPassword = '111';
 
     if (email === validEmail && password === validPassword) {
@@ -148,7 +148,7 @@ export default function Login() {
           {isLoggedIn && (
             <div className="flex items-center mt-4 text-green-500">
               <CheckCircle className="h-6 w-6" />
-              <span className="ml-2">Welcome back!</span>
+              <span className="ml-2">successfully Signed In!</span>
             </div>
           )}
           <div className="text-center mt-4">
